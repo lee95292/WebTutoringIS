@@ -20,22 +20,31 @@
 
 * 웹 기초에 해당하는 3개 링크 학습하고 결과물 2페이지 분량 보고서에 작성. + 클론코딩 소스코드
 
-* 기한 :10.20 23:59
+* 기한 :10.16 23:59
 
 * 제출 방법 : git pull request
 
 Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 
-```git
-cd [작업폴더]
+```cmd
+mkdir WebTutoringIS
+cd WebTutoringIS
+git init
+
 git remote add origin https://github.com/lee95292/WebTutoringIS
 git pull origin master
 git branch [이름_branch]
+git checkout [이름_branch]
+
 mkdir [이름]
 cd [이름]
-copy [숙제폴더] ./[이름]
+copy [제출폴더] ./[이름]
+
 git add .
 git commit -m "과제 끝"
+git checkout master
+
+git merge [이름_branch]
 git push origin master
 ```
 
