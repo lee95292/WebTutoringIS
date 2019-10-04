@@ -29,8 +29,11 @@ Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 ```git
 cd [작업폴더]
 git remote add origin https://github.com/lee95292/WebTutoringIS
-git pull origin [이름]
-copy [숙제폴더] WebTutoringIS/[이름]
+git pull origin master
+git branch [이름_branch]
+mkdir [이름]
+cd [이름]
+copy [숙제폴더] ./[이름]
 git add .
 git commit -m "과제 끝"
 git push origin master
