@@ -31,8 +31,7 @@ mkdir WebTutoringIS
 cd WebTutoringIS
 git init
 
-git remote add origin https://github.com/lee95292/WebTutoringIS
-git pull origin master
+git clone https://github.com/lee95292/WebTutoringIS
 git branch [이름_branch]
 git checkout [이름_branch]
 
