@@ -27,13 +27,9 @@
 Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 
 ```cmd
-mkdir WebTutoringIS
-cd WebTutoringIS
-git init
 
 git clone https://github.com/lee95292/WebTutoringIS
-git branch [이름_branch]
-git checkout [이름_branch]
+git checkout -b [이름_branch]
 
 mkdir [이름]
 cd [이름]
@@ -41,9 +37,6 @@ copy [제출폴더] ./[이름]
 
 git add .
 git commit -m "과제 끝"
-git checkout master
-
-git merge [이름_branch]
 git push origin master
 ```
 
