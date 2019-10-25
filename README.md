@@ -26,6 +26,15 @@
 
 ## Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 
+**Prerequisite**
+
+
+1. [git 설치](https://coding-factory.tistory.com/245)
+
+2. git bash 프로그램 열어서 [git 계정 설정](https://goodtogreate.tistory.com/entry/Git-config-%EC%84%A4%EC%A0%95-%EA%B3%84%EC%A0%95%EC%84%A4%EC%A0%95)
+
+**start**
+
 fork를 통해 과제 리포지토리를 내 리포지토리로 생성하기!
 ![fork](/mklee/fork.PNG)
 
@@ -35,7 +44,7 @@ git checkout -b [branch_이름]   //새로운 브랜치 생성
 
 mkdir [이름]                   // 과제 폴더 만들기
 cd [이름]                      // 과제 폴더로 이동
-copy [제출폴더] ./[이름]       // 과제 수행내용 과제폴더로 옮기기. 탐색기 켜서 Ctrl + c, v로 옮겨도 됩니다.
+cp [제출폴더] ./[이름]       // git bash에서는 cp, cmd에서 하는경우 copy 명령어를 사용! 과제 수행내용 과제폴더로 옮기기. 탐색기 켜서 Ctrl + c, v로 옮겨도 됩니다.
 
 git add .
 git commit -m "과제 끝"
