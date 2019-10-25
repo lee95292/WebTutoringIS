@@ -39,11 +39,11 @@ fork를 통해 과제 리포지토리를 내 리포지토리로 생성하기!
 ![fork](/mklee/fork.PNG)
 
 ```cmd
-git clone https://github.com/[github아이디]/WebTutoringIS    // fork한 내 리포지토리
-cd [프로젝트_폴더]
-git checkout -b [branch_이름]   //새로운 브랜치 생성
+git clone https://github.com/[github아이디]/WebTutoringIS    // fork한 내 리포지토리를 다운로드 받는다는 뜻!
+cd [프로젝트_폴더]                                            //프로젝트_폴더로 Change Directory(cd) 들어간다는 뜻! 
+git checkout -b [branch_이름]                                 //새로운 브랜치 생성          
 
-mkdir [이름]                   // 과제 폴더 만들기
+mkdir [이름]                                                     // 과제 폴더 만들기(Make Direcory의 약자) 
 cd [이름]                      // 과제 폴더로 이동
 cp [제출폴더] ./[이름]       // git bash에서는 cp, cmd에서 하는경우 copy 명령어를 사용! 과제 수행내용 과제폴더로 옮기기. 탐색기 켜서 Ctrl + c, v로 옮겨도 됩니다.
 
