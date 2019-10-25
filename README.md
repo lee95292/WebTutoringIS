@@ -40,6 +40,7 @@ fork를 통해 과제 리포지토리를 내 리포지토리로 생성하기!
 
 ```cmd
 git clone https://github.com/[github아이디]/WebTutoringIS    // fork한 내 리포지토리
+cd [프로젝트_폴더]
 git checkout -b [branch_이름]   //새로운 브랜치 생성
 
 mkdir [이름]                   // 과제 폴더 만들기
