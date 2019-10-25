@@ -41,6 +41,7 @@ fork를 통해 과제 리포지토리를 내 리포지토리로 생성하기!
 ```cmd
 git remote add upstream https://github.com/lee95292/WebTutoringIS //lee95292의 원격 리포지토리의 주소 추가
 git pull upstream master
+// VI 에디터 화면이 뜰수도 있습니다. 침착하게 esc, 콜론(:) 누르고 wq 엔터 눌러서 종료해주세요 [VI명령어 참고](https://secstudy.tistory.com/8)
 
 git clone https://github.com/[github아이디]/WebTutoringIS    // fork한 내 리포지토리를 다운로드 받는다는 뜻!
 cd [프로젝트_폴더]                                            //프로젝트_폴더로 Change Directory(cd) 들어간다는 뜻! 
