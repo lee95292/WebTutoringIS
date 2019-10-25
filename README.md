@@ -39,7 +39,9 @@ fork를 통해 과제 리포지토리를 내 리포지토리로 생성하기!
 ![fork](/mklee/fork.PNG)
 
 ```cmd
-git pull origin master                                      // 원격 리포지토리와 내 리포지토리를 동기화!!(중요)
+git remote add upstream https://github.com/lee95292/WebTutoringIS //lee95292의 원격 리포지토리의 주소 추가
+git pull upstream master
+
 git clone https://github.com/[github아이디]/WebTutoringIS    // fork한 내 리포지토리를 다운로드 받는다는 뜻!
 cd [프로젝트_폴더]                                            //프로젝트_폴더로 Change Directory(cd) 들어간다는 뜻! 
 git checkout -b [branch_이름]                                 //새로운 브랜치 생성          
