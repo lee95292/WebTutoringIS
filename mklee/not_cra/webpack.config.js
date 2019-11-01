@@ -6,6 +6,11 @@ module.exports={
         path:__dirname,
         filename:'./public/[name].bundle.js'
     },
+    devServer:{
+        host:'localhost',
+        contentBase:path.join(__dirname,'public'),
+        port:9000
+    },
     module:{
         rules:[{
                 test:/\.jsx?$/,
