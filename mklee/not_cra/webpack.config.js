@@ -1,12 +1,13 @@
 var path=require('path');
 
 module.exports={
-    entry: './src/index.jsx',
+    entry: './src/index.js',
     output:{
         path:__dirname,
         filename:'./public/[name].bundle.js'
     },
     devServer:{
+        index:path.join(__dirname,'public/index.html'),
         host:'localhost',
         contentBase:path.join(__dirname,'public'),
         port:9000
