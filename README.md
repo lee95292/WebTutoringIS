@@ -15,14 +15,29 @@
 
 * Git - [생활코딩 Git](https://opentutorials.org/module/3733)
 
-
 1번 보고서 작성 방법
 
-* 웹 기초에 해당하는 3개 링크 학습하고 결과물 2페이지 분량 보고서에 작성. + 클론코딩 소스코드
+> 웹 기초에 해당하는 3개 링크 학습하고 결과물 2페이지 분량 보고서에 작성. + 클론코딩 소스코드
 
-* 기한 :10.16 23:59
+> 기한 :2019 10.16 23:59
 
-* 제출 방법 : git pull request
+> 제출 방법 : git pull request
+
+### 2. 리눅스 기초 학습 / 서버 구축 기초 학습
+
+* 1. [리눅스 기초 명령어](https://gomguard.tistory.com/73) 학습 - 링크에 포함된 명령어와, chmod, grep  명령어와 같이 링크에 포함되지 않은 3개 이상의 자주쓰이는 명령어 알아보기
+
+* 2. 웹 서버와 웹 애플리케이션 서버(Web Application Server) 알아보기
+
+* 3. [링크](https://jcloud-devops.github.io/user-guide.html) 참고해서 Jcloud 인스턴스 생성, Xshell 접속까지
+
+2번 보고서 작성방법
+
+> 2번에 해당하는 내용을 A4 1/3 페이지 분량으로 작성 + 1,3번 수행 후 스크린샷
+
+> 기한 :2019 11.12 23:59
+
+> 제출 방법 : git pull request
 
 ## Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 
