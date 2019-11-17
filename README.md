@@ -43,6 +43,33 @@
 
 * 제출 방법 : git pull request
 
+### 3.웹 해킹 기초
+
+웹 해킹 기초 :
+* 웹 언어 및 인코딩 [WEB 언어, 인코딩](http://blog.naver.com/PostView.nhn?blogId=r00t_ict10&logNo=220080867407&categoryNo=21&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1)
+* Get, Post [Get과 Post 방식의 비교](https://mangkyu.tistory.com/17)
+* 쿠키, 세션 [쿠키와 세션](https://www.opentutorials.org/course/1706/240)
+* SQL Injection [SQL Injection 기초](https://mrrootable.tistory.com/25)
+
+3번 보고서 작성 방법
+* 정해준 5문제를 각자의 방법으로 풀고 보고서에 Write-up 작성
+* 기한 ~ 11.26
+* 제출 방법 git pull request
+
+## Webhacking 과제
+
+1. Webhacking.kr 로그인 [Webhacing.kr](https://webhacking.kr)
+2. Challenge(old) 접속 및 문제 풀기
+```
+보고서에 작성할 문제 - 힌트
+6번 - base64 인코딩 디코딩
+15번 - JS 종료
+16번 - 아스키코드
+17번 - JS 콘솔 
+26번 - Get 방식으로 값 넘기기
+```
+이 외에도 풀어보고 싶은 문제가 있으면 마음껏 풀어도 됨.
+
 ## Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 
 **Prerequisite**
@@ -71,30 +98,3 @@ git push origin [branch_이름]
 ```
 
 완료하면, 내 계정에 브랜치 추가된것이 보임. github 페이지에서 branch 페이지로 들어간 후, new pull request 버튼 클릭!
-
-### 웹 해킹 기초
-
-웹 해킹 기초 :
-* 웹 언어 및 인코딩 [WEB 언어, 인코딩](http://blog.naver.com/PostView.nhn?blogId=r00t_ict10&logNo=220080867407&categoryNo=21&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView&userTopListOpen=true&userTopListCount=5&userTopListManageOpen=false&userTopListCurrentPage=1)
-* Get, Post [Get과 Post 방식의 비교](https://mangkyu.tistory.com/17)
-* 쿠키, 세션 [쿠키와 세션](https://www.opentutorials.org/course/1706/240)
-* SQL Injection [SQL Injection 기초](https://mrrootable.tistory.com/25)
-
-3번 보고서 작성 방법
-* 정해준 5문제를 각자의 방법으로 풀고 보고서에 Write-up 작성
-* 기한 ~ 11.26
-* 제출 방법 git pull request
-
-## Webhacking 과제
-
-1. Webhacking.kr 로그인 [Webhacing.kr](https://webhacking.kr)
-2. Challenge(old) 접속 및 문제 풀기
-```
-보고서에 작성할 문제 - 힌트
-6번 - base64 인코딩 디코딩
-15번 - JS 종료
-16번 - 아스키코드
-17번 - JS 콘솔 
-26번 - Get 방식으로 값 넘기기
-```
-이 외에도 풀어보고 싶은 문제가 있으면 마음껏 풀어도 됨.
