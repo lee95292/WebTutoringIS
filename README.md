@@ -86,7 +86,7 @@
 
 * 각 분야별로 어떤 특징이 있는지 잘 알아보고, A4기준 1/3 이상 작성하기
 * 기한: ~ 12.20
-
+* 제출방법 : git pull request
 ## Pull request 하는 방법 (생활코딩 Git 수강 후에 볼것)
 
 **Prerequisite**
