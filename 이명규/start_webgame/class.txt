@@ -1,0 +1,9 @@
+github 과제제출 -'40
+	내 과제도 같이 git으로 제출/ git 중요성 /branch 코드 바뀌는거 보여주기/ 커밋별 시간이동 보여주기
+웹서버와 웹 어플리케이션 서버 설명하기 '20
+	웹 서버 운영체제 / 서버 OS 점유율, 리눅스 명령어 알아오라 한 이유 
+클라우드 서비스 설명 및 생성 '20
+	jcloud 생성
+웹게임 제작 및 배포 '30
+
+https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls
